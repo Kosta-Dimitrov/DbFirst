@@ -21,6 +21,6 @@ namespace DbFirst.Classes
         public bool Isactive { get; set; }
         public int? Institutionownershiptypeid { get; set; }
 
-        public virtual ICollection<Institutionspeciality> Institutionspecialities { get; set; }
+        public virtual IList<Institutionspeciality> Institutionspecialities { get; set; }
     }
 }
